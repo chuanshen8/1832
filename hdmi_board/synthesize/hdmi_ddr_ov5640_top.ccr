@@ -1,0 +1,377 @@
+##### Written on 2024/10/31 11:42:39 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	hdmi_ddr_ov5640_top
+
+Constraint File(s) : 
+	D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 47 critical warning(s), 44 warning(s), out of 1324 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:pixclk_in1} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 370)] PAP_IO_DIRECTION is already defined in p:pixclk_in1, new value INPUT will overwrite the current value.
+
+define_attribute {p:pixclk_in1} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 372)] PAP_IO_VCCIO is already defined in p:pixclk_in1, new value 3.3 will overwrite the current value.
+
+define_attribute {p:pixclk_in1} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 373)] PAP_IO_STANDARD is already defined in p:pixclk_in1, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:pixclk_in1} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 374)] PAP_IO_NONE is already defined in p:pixclk_in1, new value TRUE will overwrite the current value.
+
+define_attribute {p:pixclk_in2} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 517)] PAP_IO_DIRECTION is already defined in p:pixclk_in2, new value INPUT will overwrite the current value.
+
+define_attribute {p:pixclk_in2} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 519)] PAP_IO_VCCIO is already defined in p:pixclk_in2, new value 3.3 will overwrite the current value.
+
+define_attribute {p:pixclk_in2} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 520)] PAP_IO_STANDARD is already defined in p:pixclk_in2, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:pixclk_in2} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 521)] PAP_IO_NONE is already defined in p:pixclk_in2, new value TRUE will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_DIRECTION} {INOUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 699)] PAP_IO_DIRECTION is already defined in p:iic_sda, new value INOUT will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_LOC} {A20}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 700)] PAP_IO_LOC is already defined in p:iic_sda, new value A20 will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 701)] PAP_IO_VCCIO is already defined in p:iic_sda, new value 3.3 will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 702)] PAP_IO_STANDARD is already defined in p:iic_sda, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 703)] PAP_IO_DRIVE is already defined in p:iic_sda, new value 8 will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 704)] PAP_IO_NONE is already defined in p:iic_sda, new value TRUE will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 705)] PAP_IO_SLEW is already defined in p:iic_sda, new value SLOW will overwrite the current value.
+
+define_attribute {p:mem_dq[31]} {PAP_IO_DIRECTION} {INOUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1301)] PAP_IO_DIRECTION is already defined in p:mem_dq[31], new value INOUT will overwrite the current value.
+
+define_attribute {p:mem_dq[31]} {PAP_IO_LOC} {G3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1302)] PAP_IO_LOC is already defined in p:mem_dq[31], new value G3 will overwrite the current value.
+
+define_attribute {p:mem_dq[31]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1303)] PAP_IO_VCCIO is already defined in p:mem_dq[31], new value 3.3 will overwrite the current value.
+
+define_attribute {p:mem_dq[31]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1304)] PAP_IO_STANDARD is already defined in p:mem_dq[31], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:mem_dq[31]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1305)] PAP_IO_DRIVE is already defined in p:mem_dq[31], new value 8 will overwrite the current value.
+
+define_attribute {p:mem_dq[31]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1306)] PAP_IO_NONE is already defined in p:mem_dq[31], new value TRUE will overwrite the current value.
+
+define_attribute {p:mem_dq[31]} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1307)] PAP_IO_SLEW is already defined in p:mem_dq[31], new value SLOW will overwrite the current value.
+
+define_attribute {p:mem_dq[31]} {PAP_IO_DIRECTION} {INOUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1308)] PAP_IO_DIRECTION is already defined in p:mem_dq[31], new value INOUT will overwrite the current value.
+
+define_attribute {p:mem_dq[31]} {PAP_IO_LOC} {G3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1309)] PAP_IO_LOC is already defined in p:mem_dq[31], new value G3 will overwrite the current value.
+
+define_attribute {p:mem_dq[31]} {PAP_IO_VCCIO} {1.5}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1310)] PAP_IO_VCCIO is already defined in p:mem_dq[31], new value 1.5 will overwrite the current value.
+
+define_attribute {p:mem_dq[31]} {PAP_IO_STANDARD} {HSTL15_I}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1311)] PAP_IO_STANDARD is already defined in p:mem_dq[31], new value HSTL15_I will overwrite the current value.
+
+define_attribute {p:mem_dq[31]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1312)] PAP_IO_DRIVE is already defined in p:mem_dq[31], new value 8 will overwrite the current value.
+
+define_attribute {p:mem_dq[31]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1313)] PAP_IO_NONE is already defined in p:mem_dq[31], new value TRUE will overwrite the current value.
+
+define_attribute {p:mem_dq[31]} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1314)] PAP_IO_SLEW is already defined in p:mem_dq[31], new value SLOW will overwrite the current value.
+
+define_attribute {p:sys_rst_n} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1315)] PAP_IO_DIRECTION is already defined in p:sys_rst_n, new value INPUT will overwrite the current value.
+
+define_attribute {p:sys_rst_n} {PAP_IO_LOC} {B1}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1316)] PAP_IO_LOC is already defined in p:sys_rst_n, new value B1 will overwrite the current value.
+
+define_attribute {p:sys_rst_n} {PAP_IO_VCCIO} {1.5}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1317)] PAP_IO_VCCIO is already defined in p:sys_rst_n, new value 1.5 will overwrite the current value.
+
+define_attribute {p:sys_rst_n} {PAP_IO_STANDARD} {LVCMOS15}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1318)] PAP_IO_STANDARD is already defined in p:sys_rst_n, new value LVCMOS15 will overwrite the current value.
+
+define_attribute {p:sys_rst_n} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1319)] PAP_IO_NONE is already defined in p:sys_rst_n, new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_LOC} {C18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 5)] | Port b_out[7] has been placed at location C18, whose type is share pin.
+
+define_attribute {p:b_out[6]} {PAP_IO_LOC} {A18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 12)] | Port b_out[6] has been placed at location A18, whose type is share pin.
+
+define_attribute {p:b_out[5]} {PAP_IO_LOC} {B18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 19)] | Port b_out[5] has been placed at location B18, whose type is share pin.
+
+define_attribute {p:b_out[4]} {PAP_IO_LOC} {B20}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 26)] | Port b_out[4] has been placed at location B20, whose type is share pin.
+
+define_attribute {p:g_out[0]} {PAP_IO_LOC} {D17}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 110)] | Port g_out[0] has been placed at location D17, whose type is share pin.
+
+define_attribute {p:rstn_out2} {PAP_IO_LOC} {P21}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 221)] | Port rstn_out2 has been placed at location P21, whose type is share pin.
+
+define_attribute {p:g_in1[1]} {PAP_IO_LOC} {V17}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 277)] | Port g_in1[1] has been placed at location V17, whose type is share pin.
+
+define_attribute {p:g_in1[5]} {PAP_IO_LOC} {AB18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 297)] | Port g_in1[5] has been placed at location AB18, whose type is share pin.
+
+define_attribute {p:g_in1[4]} {PAP_IO_LOC} {AA18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 302)] | Port g_in1[4] has been placed at location AA18, whose type is share pin.
+
+define_attribute {p:g_in1[3]} {PAP_IO_LOC} {AB19}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 307)] | Port g_in1[3] has been placed at location AB19, whose type is share pin.
+
+define_attribute {p:g_in1[2]} {PAP_IO_LOC} {W18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 312)] | Port g_in1[2] has been placed at location W18, whose type is share pin.
+
+define_attribute {p:pixclk_in1} {PAP_IO_LOC} {AA12}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 371)] | Port pixclk_in1 has been placed at location AA12, whose type is share pin.
+
+define_attribute {p:b_in2[6]} {PAP_IO_LOC} {T21}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 384)] | Port b_in2[6] has been placed at location T21, whose type is share pin.
+
+define_attribute {p:g_in2[1]} {PAP_IO_LOC} {R22}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 419)] | Port g_in2[1] has been placed at location R22, whose type is share pin.
+
+define_attribute {p:g_in2[0]} {PAP_IO_LOC} {R20}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 424)] | Port g_in2[0] has been placed at location R20, whose type is share pin.
+
+define_attribute {p:g_in2[5]} {PAP_IO_LOC} {M22}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 439)] | Port g_in2[5] has been placed at location M22, whose type is share pin.
+
+define_attribute {p:g_in2[4]} {PAP_IO_LOC} {M21}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 444)] | Port g_in2[4] has been placed at location M21, whose type is share pin.
+
+define_attribute {p:r_in2[5]} {PAP_IO_LOC} {K17}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 469)] | Port r_in2[5] has been placed at location K17, whose type is share pin.
+
+define_attribute {p:r_in2[4]} {PAP_IO_LOC} {L17}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 474)] | Port r_in2[4] has been placed at location L17, whose type is share pin.
+
+define_attribute {p:r_in2[3]} {PAP_IO_LOC} {K20}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 479)] | Port r_in2[3] has been placed at location K20, whose type is share pin.
+
+define_attribute {p:r_in2[2]} {PAP_IO_LOC} {L19}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 484)] | Port r_in2[2] has been placed at location L19, whose type is share pin.
+
+define_attribute {p:b_in3[7]} {PAP_IO_LOC} {K19}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 527)] | Port b_in3[7] has been placed at location K19, whose type is share pin.
+
+define_attribute {p:b_in3[3]} {PAP_IO_LOC} {N22}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 547)] | Port b_in3[3] has been placed at location N22, whose type is share pin.
+
+define_attribute {p:b_in3[2]} {PAP_IO_LOC} {N20}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 552)] | Port b_in3[2] has been placed at location N20, whose type is share pin.
+
+define_attribute {p:b_in3[0]} {PAP_IO_LOC} {F21}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 562)] | Port b_in3[0] has been placed at location F21, whose type is share pin.
+
+define_attribute {p:g_in3[6]} {PAP_IO_LOC} {H20}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 572)] | Port g_in3[6] has been placed at location H20, whose type is share pin.
+
+define_attribute {p:g_in3[5]} {PAP_IO_LOC} {J19}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 577)] | Port g_in3[5] has been placed at location J19, whose type is share pin.
+
+define_attribute {p:g_in3[0]} {PAP_IO_LOC} {K18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 602)] | Port g_in3[0] has been placed at location K18, whose type is share pin.
+
+define_attribute {p:r_in3[4]} {PAP_IO_LOC} {F18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 622)] | Port r_in3[4] has been placed at location F18, whose type is share pin.
+
+define_attribute {p:r_in3[3]} {PAP_IO_LOC} {F19}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 627)] | Port r_in3[3] has been placed at location F19, whose type is share pin.
+
+define_attribute {p:r_in3[2]} {PAP_IO_LOC} {F20}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 632)] | Port r_in3[2] has been placed at location F20, whose type is share pin.
+
+define_attribute {p:r_in3[1]} {PAP_IO_LOC} {G19}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 637)] | Port r_in3[1] has been placed at location G19, whose type is share pin.
+
+define_attribute {p:iic_sda} {PAP_IO_LOC} {A20}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 700)] | Port iic_sda has been placed at location A20, whose type is share pin.
+
+define_attribute {p:de_in3} {PAP_IO_LOC} {F22}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 654)] | Port de_in3 has been placed at location F22, whose type is share pin.
+
+define_attribute {p:hs_in3} {PAP_IO_LOC} {G20}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 659)] | Port hs_in3 has been placed at location G20, whose type is share pin.
+
+define_attribute {p:vs_in3} {PAP_IO_LOC} {G22}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 669)] | Port vs_in3 has been placed at location G22, whose type is share pin.
+
+define_attribute {p:iic_rx_sda} {PAP_IO_LOC} {V20}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 677)] | Port iic_rx_sda has been placed at location V20, whose type is share pin.
+
+define_attribute {p:iic_rx_scl} {PAP_IO_LOC} {V19}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 684)] | Port iic_rx_scl has been placed at location V19, whose type is share pin.
+
+define_attribute {p:iic_scl} {PAP_IO_LOC} {C19}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 693)] | Port iic_scl has been placed at location C19, whose type is share pin.
+
+define_attribute {p:mem_dq[14]} {PAP_IO_LOC} {P3}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 959)] | Port mem_dq[14] has been placed at location P3, whose type is share pin.
+
+define_attribute {p:mem_dq[11]} {PAP_IO_LOC} {M1}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 980)] | Port mem_dq[11] has been placed at location M1, whose type is share pin.
+
+define_attribute {p:mem_dq[9]} {PAP_IO_LOC} {M2}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 994)] | Port mem_dq[9] has been placed at location M2, whose type is share pin.
+
+define_attribute {p:key3} {PAP_IO_LOC} {U6}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1262)] | Port key3 has been placed at location U6, whose type is share pin.
+
+define_attribute {p:key4} {PAP_IO_LOC} {T7}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1268)] | Port key4 has been placed at location T7, whose type is share pin.
+
+define_attribute {p:key5} {PAP_IO_LOC} {W9}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1274)] | Port key5 has been placed at location W9, whose type is share pin.
+
+define_attribute {p:key6} {PAP_IO_LOC} {Y8}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hdmi_board/hdmi_ddr_ov5640_top.fdc(line number: 1282)] | Port key6 has been placed at location Y8, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+C: ConstraintEditor-2009: p:r_out[4] is lack of PAP_IO_SLEW, OUTPUT or INOUT PORT had better set PAP_IO_SLEW, the optional value is {SLOW, FAST}.
+
+
+W: ConstraintEditor-4019: Port 'o_p_l2txn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l2txp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l3txn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l3txp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l2rxn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l2rxp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l3rxn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l3rxp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_refckn_0' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_refckp_0' unspecified I/O constraint.
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

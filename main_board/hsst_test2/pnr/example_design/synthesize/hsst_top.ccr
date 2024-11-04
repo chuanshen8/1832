@@ -1,0 +1,1332 @@
+##### Written on 2024/10/29 17:59:00 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	hsst_top
+
+Constraint File(s) : 
+	D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 28 critical warning(s), 301 warning(s), out of 821 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:b_out[7]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 245)] PAP_IO_DIRECTION is already defined in p:b_out[7], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_LOC} {P19}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 246)] PAP_IO_LOC is already defined in p:b_out[7], new value P19 will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 247)] PAP_IO_VCCIO is already defined in p:b_out[7], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 248)] PAP_IO_STANDARD is already defined in p:b_out[7], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 249)] PAP_IO_DRIVE is already defined in p:b_out[7], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 250)] PAP_IO_NONE is already defined in p:b_out[7], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 251)] PAP_IO_SLEW is already defined in p:b_out[7], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 252)] PAP_IO_DIRECTION is already defined in p:b_out[6], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_LOC} {R19}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 253)] PAP_IO_LOC is already defined in p:b_out[6], new value R19 will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 254)] PAP_IO_VCCIO is already defined in p:b_out[6], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 255)] PAP_IO_STANDARD is already defined in p:b_out[6], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 256)] PAP_IO_DRIVE is already defined in p:b_out[6], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 257)] PAP_IO_NONE is already defined in p:b_out[6], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 258)] PAP_IO_SLEW is already defined in p:b_out[6], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 259)] PAP_IO_DIRECTION is already defined in p:b_out[5], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_LOC} {R22}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 260)] PAP_IO_LOC is already defined in p:b_out[5], new value R22 will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 261)] PAP_IO_VCCIO is already defined in p:b_out[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 262)] PAP_IO_STANDARD is already defined in p:b_out[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 263)] PAP_IO_DRIVE is already defined in p:b_out[5], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 264)] PAP_IO_NONE is already defined in p:b_out[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 265)] PAP_IO_SLEW is already defined in p:b_out[5], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 266)] PAP_IO_DIRECTION is already defined in p:b_out[4], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_LOC} {R20}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 267)] PAP_IO_LOC is already defined in p:b_out[4], new value R20 will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 268)] PAP_IO_VCCIO is already defined in p:b_out[4], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 269)] PAP_IO_STANDARD is already defined in p:b_out[4], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 270)] PAP_IO_DRIVE is already defined in p:b_out[4], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 271)] PAP_IO_NONE is already defined in p:b_out[4], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 272)] PAP_IO_SLEW is already defined in p:b_out[4], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 273)] PAP_IO_DIRECTION is already defined in p:b_out[3], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_LOC} {T22}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 274)] PAP_IO_LOC is already defined in p:b_out[3], new value T22 will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 275)] PAP_IO_VCCIO is already defined in p:b_out[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 276)] PAP_IO_STANDARD is already defined in p:b_out[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 277)] PAP_IO_DRIVE is already defined in p:b_out[3], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 278)] PAP_IO_NONE is already defined in p:b_out[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 279)] PAP_IO_SLEW is already defined in p:b_out[3], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 287)] PAP_IO_DIRECTION is already defined in p:b_out[1], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_LOC} {V22}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 288)] PAP_IO_LOC is already defined in p:b_out[1], new value V22 will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 289)] PAP_IO_VCCIO is already defined in p:b_out[1], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 290)] PAP_IO_STANDARD is already defined in p:b_out[1], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 291)] PAP_IO_DRIVE is already defined in p:b_out[1], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 292)] PAP_IO_NONE is already defined in p:b_out[1], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 293)] PAP_IO_SLEW is already defined in p:b_out[1], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 294)] PAP_IO_DIRECTION is already defined in p:b_out[0], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_LOC} {V21}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 295)] PAP_IO_LOC is already defined in p:b_out[0], new value V21 will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 296)] PAP_IO_VCCIO is already defined in p:b_out[0], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 297)] PAP_IO_STANDARD is already defined in p:b_out[0], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 298)] PAP_IO_DRIVE is already defined in p:b_out[0], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 299)] PAP_IO_NONE is already defined in p:b_out[0], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 300)] PAP_IO_SLEW is already defined in p:b_out[0], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 301)] PAP_IO_DIRECTION is already defined in p:g_out[7], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_LOC} {L17}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 302)] PAP_IO_LOC is already defined in p:g_out[7], new value L17 will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 303)] PAP_IO_VCCIO is already defined in p:g_out[7], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 304)] PAP_IO_STANDARD is already defined in p:g_out[7], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 305)] PAP_IO_DRIVE is already defined in p:g_out[7], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 306)] PAP_IO_NONE is already defined in p:g_out[7], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 307)] PAP_IO_SLEW is already defined in p:g_out[7], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 308)] PAP_IO_DIRECTION is already defined in p:g_out[6], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_LOC} {K20}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 309)] PAP_IO_LOC is already defined in p:g_out[6], new value K20 will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 310)] PAP_IO_VCCIO is already defined in p:g_out[6], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 311)] PAP_IO_STANDARD is already defined in p:g_out[6], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 312)] PAP_IO_DRIVE is already defined in p:g_out[6], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 313)] PAP_IO_NONE is already defined in p:g_out[6], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 314)] PAP_IO_SLEW is already defined in p:g_out[6], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 315)] PAP_IO_DIRECTION is already defined in p:g_out[5], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_LOC} {L19}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 316)] PAP_IO_LOC is already defined in p:g_out[5], new value L19 will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 317)] PAP_IO_VCCIO is already defined in p:g_out[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 318)] PAP_IO_STANDARD is already defined in p:g_out[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 319)] PAP_IO_DRIVE is already defined in p:g_out[5], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 320)] PAP_IO_NONE is already defined in p:g_out[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 321)] PAP_IO_SLEW is already defined in p:g_out[5], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 322)] PAP_IO_DIRECTION is already defined in p:g_out[4], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_LOC} {N15}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 323)] PAP_IO_LOC is already defined in p:g_out[4], new value N15 will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 324)] PAP_IO_VCCIO is already defined in p:g_out[4], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 325)] PAP_IO_STANDARD is already defined in p:g_out[4], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 326)] PAP_IO_DRIVE is already defined in p:g_out[4], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 327)] PAP_IO_NONE is already defined in p:g_out[4], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 328)] PAP_IO_SLEW is already defined in p:g_out[4], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 329)] PAP_IO_DIRECTION is already defined in p:g_out[3], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_LOC} {M16}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 330)] PAP_IO_LOC is already defined in p:g_out[3], new value M16 will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 331)] PAP_IO_VCCIO is already defined in p:g_out[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 332)] PAP_IO_STANDARD is already defined in p:g_out[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 333)] PAP_IO_DRIVE is already defined in p:g_out[3], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 334)] PAP_IO_NONE is already defined in p:g_out[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 335)] PAP_IO_SLEW is already defined in p:g_out[3], new value FAST will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 406)] PAP_IO_DIRECTION is already defined in p:r_out[0], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_LOC} {K17}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 407)] PAP_IO_LOC is already defined in p:r_out[0], new value K17 will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 408)] PAP_IO_VCCIO is already defined in p:r_out[0], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 409)] PAP_IO_STANDARD is already defined in p:r_out[0], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 410)] PAP_IO_DRIVE is already defined in p:r_out[0], new value 8 will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 411)] PAP_IO_NONE is already defined in p:r_out[0], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 412)] PAP_IO_SLEW is already defined in p:r_out[0], new value FAST will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 413)] PAP_IO_DIRECTION is already defined in p:de_out, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_LOC} {Y22}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 414)] PAP_IO_LOC is already defined in p:de_out, new value Y22 will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 415)] PAP_IO_VCCIO is already defined in p:de_out, new value 3.3 will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 416)] PAP_IO_STANDARD is already defined in p:de_out, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 417)] PAP_IO_DRIVE is already defined in p:de_out, new value 8 will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 418)] PAP_IO_NONE is already defined in p:de_out, new value TRUE will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 419)] PAP_IO_SLEW is already defined in p:de_out, new value FAST will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 420)] PAP_IO_DIRECTION is already defined in p:hs_out, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_LOC} {Y21}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 421)] PAP_IO_LOC is already defined in p:hs_out, new value Y21 will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 422)] PAP_IO_VCCIO is already defined in p:hs_out, new value 3.3 will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 423)] PAP_IO_STANDARD is already defined in p:hs_out, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 424)] PAP_IO_DRIVE is already defined in p:hs_out, new value 8 will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 425)] PAP_IO_NONE is already defined in p:hs_out, new value TRUE will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 426)] PAP_IO_SLEW is already defined in p:hs_out, new value FAST will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_DIRECTION} {INOUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 472)] PAP_IO_DIRECTION is already defined in p:iic_sda, new value INOUT will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_LOC} {V20}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 473)] PAP_IO_LOC is already defined in p:iic_sda, new value V20 will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 474)] PAP_IO_VCCIO is already defined in p:iic_sda, new value 3.3 will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 475)] PAP_IO_STANDARD is already defined in p:iic_sda, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 476)] PAP_IO_DRIVE is already defined in p:iic_sda, new value 8 will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 478)] PAP_IO_SLEW is already defined in p:iic_sda, new value FAST will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_DIRECTION} {INOUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 479)] PAP_IO_DIRECTION is already defined in p:iic_tx_sda, new value INOUT will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_LOC} {P18}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 480)] PAP_IO_LOC is already defined in p:iic_tx_sda, new value P18 will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 481)] PAP_IO_VCCIO is already defined in p:iic_tx_sda, new value 3.3 will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 482)] PAP_IO_STANDARD is already defined in p:iic_tx_sda, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 483)] PAP_IO_DRIVE is already defined in p:iic_tx_sda, new value 8 will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 485)] PAP_IO_SLEW is already defined in p:iic_tx_sda, new value FAST will overwrite the current value.
+
+define_attribute {p:iic_scl} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 486)] PAP_IO_DIRECTION is already defined in p:iic_scl, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:iic_scl} {PAP_IO_LOC} {V19}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 487)] PAP_IO_LOC is already defined in p:iic_scl, new value V19 will overwrite the current value.
+
+define_attribute {p:iic_scl} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 488)] PAP_IO_VCCIO is already defined in p:iic_scl, new value 3.3 will overwrite the current value.
+
+define_attribute {p:iic_scl} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 489)] PAP_IO_STANDARD is already defined in p:iic_scl, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:iic_scl} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 490)] PAP_IO_DRIVE is already defined in p:iic_scl, new value 8 will overwrite the current value.
+
+define_attribute {p:iic_scl} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 492)] PAP_IO_SLEW is already defined in p:iic_scl, new value FAST will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 493)] PAP_IO_DIRECTION is already defined in p:iic_tx_scl, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_LOC} {P17}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 494)] PAP_IO_LOC is already defined in p:iic_tx_scl, new value P17 will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 495)] PAP_IO_VCCIO is already defined in p:iic_tx_scl, new value 3.3 will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 496)] PAP_IO_STANDARD is already defined in p:iic_tx_scl, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 497)] PAP_IO_DRIVE is already defined in p:iic_tx_scl, new value 8 will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 499)] PAP_IO_SLEW is already defined in p:iic_tx_scl, new value FAST will overwrite the current value.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 725)] PAP_IO_DIRECTION is already defined in p:eth_txd[3], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_LOC} {A18}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 726)] PAP_IO_LOC is already defined in p:eth_txd[3], new value A18 will overwrite the current value.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 727)] PAP_IO_VCCIO is already defined in p:eth_txd[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 728)] PAP_IO_STANDARD is already defined in p:eth_txd[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_DRIVE} {12}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 729)] PAP_IO_DRIVE is already defined in p:eth_txd[3], new value 12 will overwrite the current value.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 730)] PAP_IO_PULLUP is already defined in p:eth_txd[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 731)] PAP_IO_SLEW is already defined in p:eth_txd[3], new value SLOW will overwrite the current value.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 732)] PAP_IO_DIRECTION is already defined in p:eth_txd[2], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_LOC} {C18}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 733)] PAP_IO_LOC is already defined in p:eth_txd[2], new value C18 will overwrite the current value.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 734)] PAP_IO_VCCIO is already defined in p:eth_txd[2], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 735)] PAP_IO_STANDARD is already defined in p:eth_txd[2], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_DRIVE} {12}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 736)] PAP_IO_DRIVE is already defined in p:eth_txd[2], new value 12 will overwrite the current value.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 737)] PAP_IO_PULLUP is already defined in p:eth_txd[2], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 738)] PAP_IO_SLEW is already defined in p:eth_txd[2], new value SLOW will overwrite the current value.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 739)] PAP_IO_DIRECTION is already defined in p:eth_txd[1], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_LOC} {D17}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 740)] PAP_IO_LOC is already defined in p:eth_txd[1], new value D17 will overwrite the current value.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 741)] PAP_IO_VCCIO is already defined in p:eth_txd[1], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 742)] PAP_IO_STANDARD is already defined in p:eth_txd[1], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_DRIVE} {12}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 743)] PAP_IO_DRIVE is already defined in p:eth_txd[1], new value 12 will overwrite the current value.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 744)] PAP_IO_PULLUP is already defined in p:eth_txd[1], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 745)] PAP_IO_SLEW is already defined in p:eth_txd[1], new value SLOW will overwrite the current value.
+
+define_attribute {p:eth_txd[0]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 746)] PAP_IO_DIRECTION is already defined in p:eth_txd[0], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth_txd[0]} {PAP_IO_LOC} {F17}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 747)] PAP_IO_LOC is already defined in p:eth_txd[0], new value F17 will overwrite the current value.
+
+define_attribute {p:eth_txd[0]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 748)] PAP_IO_VCCIO is already defined in p:eth_txd[0], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_txd[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 749)] PAP_IO_STANDARD is already defined in p:eth_txd[0], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_txd[0]} {PAP_IO_DRIVE} {12}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 750)] PAP_IO_DRIVE is already defined in p:eth_txd[0], new value 12 will overwrite the current value.
+
+define_attribute {p:eth_txd[0]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 751)] PAP_IO_PULLUP is already defined in p:eth_txd[0], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_txd[0]} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 752)] PAP_IO_SLEW is already defined in p:eth_txd[0], new value SLOW will overwrite the current value.
+
+define_attribute {p:eth_rxd[3]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 753)] PAP_IO_DIRECTION is already defined in p:eth_rxd[3], new value INPUT will overwrite the current value.
+
+define_attribute {p:eth_rxd[3]} {PAP_IO_LOC} {H13}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 754)] PAP_IO_LOC is already defined in p:eth_rxd[3], new value H13 will overwrite the current value.
+
+define_attribute {p:eth_rxd[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 755)] PAP_IO_VCCIO is already defined in p:eth_rxd[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_rxd[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 756)] PAP_IO_STANDARD is already defined in p:eth_rxd[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_rxd[3]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 757)] PAP_IO_PULLUP is already defined in p:eth_rxd[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_rxd[2]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 758)] PAP_IO_DIRECTION is already defined in p:eth_rxd[2], new value INPUT will overwrite the current value.
+
+define_attribute {p:eth_rxd[2]} {PAP_IO_LOC} {G13}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 759)] PAP_IO_LOC is already defined in p:eth_rxd[2], new value G13 will overwrite the current value.
+
+define_attribute {p:eth_rxd[2]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 760)] PAP_IO_VCCIO is already defined in p:eth_rxd[2], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_rxd[2]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 761)] PAP_IO_STANDARD is already defined in p:eth_rxd[2], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_rxd[2]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 762)] PAP_IO_PULLUP is already defined in p:eth_rxd[2], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_rxd[1]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 763)] PAP_IO_DIRECTION is already defined in p:eth_rxd[1], new value INPUT will overwrite the current value.
+
+define_attribute {p:eth_rxd[1]} {PAP_IO_LOC} {H11}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 764)] PAP_IO_LOC is already defined in p:eth_rxd[1], new value H11 will overwrite the current value.
+
+define_attribute {p:eth_rxd[1]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 765)] PAP_IO_VCCIO is already defined in p:eth_rxd[1], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_rxd[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 766)] PAP_IO_STANDARD is already defined in p:eth_rxd[1], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_rxd[1]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 767)] PAP_IO_PULLUP is already defined in p:eth_rxd[1], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_rxd[0]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 768)] PAP_IO_DIRECTION is already defined in p:eth_rxd[0], new value INPUT will overwrite the current value.
+
+define_attribute {p:eth_rxd[0]} {PAP_IO_LOC} {H10}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 769)] PAP_IO_LOC is already defined in p:eth_rxd[0], new value H10 will overwrite the current value.
+
+define_attribute {p:eth_rxd[0]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 770)] PAP_IO_VCCIO is already defined in p:eth_rxd[0], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_rxd[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 771)] PAP_IO_STANDARD is already defined in p:eth_rxd[0], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_rxd[0]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 772)] PAP_IO_PULLUP is already defined in p:eth_rxd[0], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_rst_n} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 773)] PAP_IO_DIRECTION is already defined in p:eth_rst_n, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth_rst_n} {PAP_IO_LOC} {B20}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 774)] PAP_IO_LOC is already defined in p:eth_rst_n, new value B20 will overwrite the current value.
+
+define_attribute {p:eth_rst_n} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 775)] PAP_IO_VCCIO is already defined in p:eth_rst_n, new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_rst_n} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 776)] PAP_IO_STANDARD is already defined in p:eth_rst_n, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_rst_n} {PAP_IO_DRIVE} {12}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 777)] PAP_IO_DRIVE is already defined in p:eth_rst_n, new value 12 will overwrite the current value.
+
+define_attribute {p:eth_rst_n} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 778)] PAP_IO_PULLUP is already defined in p:eth_rst_n, new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_rst_n} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 779)] PAP_IO_SLEW is already defined in p:eth_rst_n, new value SLOW will overwrite the current value.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 780)] PAP_IO_DIRECTION is already defined in p:eth_tx_ctl, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_LOC} {B18}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 781)] PAP_IO_LOC is already defined in p:eth_tx_ctl, new value B18 will overwrite the current value.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 782)] PAP_IO_VCCIO is already defined in p:eth_tx_ctl, new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 783)] PAP_IO_STANDARD is already defined in p:eth_tx_ctl, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_DRIVE} {12}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 784)] PAP_IO_DRIVE is already defined in p:eth_tx_ctl, new value 12 will overwrite the current value.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 785)] PAP_IO_PULLUP is already defined in p:eth_tx_ctl, new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 786)] PAP_IO_SLEW is already defined in p:eth_tx_ctl, new value SLOW will overwrite the current value.
+
+define_attribute {p:eth_txc} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 787)] PAP_IO_DIRECTION is already defined in p:eth_txc, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth_txc} {PAP_IO_LOC} {G16}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 788)] PAP_IO_LOC is already defined in p:eth_txc, new value G16 will overwrite the current value.
+
+define_attribute {p:eth_txc} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 789)] PAP_IO_VCCIO is already defined in p:eth_txc, new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_txc} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 790)] PAP_IO_STANDARD is already defined in p:eth_txc, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_txc} {PAP_IO_DRIVE} {12}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 791)] PAP_IO_DRIVE is already defined in p:eth_txc, new value 12 will overwrite the current value.
+
+define_attribute {p:eth_txc} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 792)] PAP_IO_PULLUP is already defined in p:eth_txc, new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_txc} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 793)] PAP_IO_SLEW is already defined in p:eth_txc, new value SLOW will overwrite the current value.
+
+define_attribute {p:eth_rx_ctl} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 794)] PAP_IO_DIRECTION is already defined in p:eth_rx_ctl, new value INPUT will overwrite the current value.
+
+define_attribute {p:eth_rx_ctl} {PAP_IO_LOC} {F9}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 795)] PAP_IO_LOC is already defined in p:eth_rx_ctl, new value F9 will overwrite the current value.
+
+define_attribute {p:eth_rx_ctl} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 796)] PAP_IO_VCCIO is already defined in p:eth_rx_ctl, new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_rx_ctl} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 797)] PAP_IO_STANDARD is already defined in p:eth_rx_ctl, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_rx_ctl} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 798)] PAP_IO_PULLUP is already defined in p:eth_rx_ctl, new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_rxc} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 799)] PAP_IO_DIRECTION is already defined in p:eth_rxc, new value INPUT will overwrite the current value.
+
+define_attribute {p:eth_rxc} {PAP_IO_LOC} {F14}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 800)] PAP_IO_LOC is already defined in p:eth_rxc, new value F14 will overwrite the current value.
+
+define_attribute {p:eth_rxc} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 801)] PAP_IO_VCCIO is already defined in p:eth_rxc, new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_rxc} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 802)] PAP_IO_STANDARD is already defined in p:eth_rxc, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_rxc} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 803)] PAP_IO_PULLUP is already defined in p:eth_rxc, new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 804)] PAP_IO_DIRECTION is already defined in p:eth_txd[3], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_LOC} {A18}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 805)] PAP_IO_LOC is already defined in p:eth_txd[3], new value A18 will overwrite the current value.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 806)] PAP_IO_VCCIO is already defined in p:eth_txd[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 807)] PAP_IO_STANDARD is already defined in p:eth_txd[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_DRIVE} {12}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 808)] PAP_IO_DRIVE is already defined in p:eth_txd[3], new value 12 will overwrite the current value.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 809)] PAP_IO_PULLUP is already defined in p:eth_txd[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 810)] PAP_IO_SLEW is already defined in p:eth_txd[3], new value SLOW will overwrite the current value.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 811)] PAP_IO_DIRECTION is already defined in p:eth_txd[2], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_LOC} {C18}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 812)] PAP_IO_LOC is already defined in p:eth_txd[2], new value C18 will overwrite the current value.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 813)] PAP_IO_VCCIO is already defined in p:eth_txd[2], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 814)] PAP_IO_STANDARD is already defined in p:eth_txd[2], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_DRIVE} {12}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 815)] PAP_IO_DRIVE is already defined in p:eth_txd[2], new value 12 will overwrite the current value.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 816)] PAP_IO_PULLUP is already defined in p:eth_txd[2], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 817)] PAP_IO_SLEW is already defined in p:eth_txd[2], new value SLOW will overwrite the current value.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 818)] PAP_IO_DIRECTION is already defined in p:eth_txd[1], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_LOC} {D17}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 819)] PAP_IO_LOC is already defined in p:eth_txd[1], new value D17 will overwrite the current value.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 820)] PAP_IO_VCCIO is already defined in p:eth_txd[1], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 821)] PAP_IO_STANDARD is already defined in p:eth_txd[1], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_DRIVE} {12}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 822)] PAP_IO_DRIVE is already defined in p:eth_txd[1], new value 12 will overwrite the current value.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 823)] PAP_IO_PULLUP is already defined in p:eth_txd[1], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 824)] PAP_IO_SLEW is already defined in p:eth_txd[1], new value SLOW will overwrite the current value.
+
+define_attribute {p:eth_txd[0]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 825)] PAP_IO_DIRECTION is already defined in p:eth_txd[0], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth_txd[0]} {PAP_IO_LOC} {F17}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 826)] PAP_IO_LOC is already defined in p:eth_txd[0], new value F17 will overwrite the current value.
+
+define_attribute {p:eth_txd[0]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 827)] PAP_IO_VCCIO is already defined in p:eth_txd[0], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_txd[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 828)] PAP_IO_STANDARD is already defined in p:eth_txd[0], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_txd[0]} {PAP_IO_DRIVE} {12}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 829)] PAP_IO_DRIVE is already defined in p:eth_txd[0], new value 12 will overwrite the current value.
+
+define_attribute {p:eth_txd[0]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 830)] PAP_IO_PULLUP is already defined in p:eth_txd[0], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_txd[0]} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 831)] PAP_IO_SLEW is already defined in p:eth_txd[0], new value SLOW will overwrite the current value.
+
+define_attribute {p:eth_rxd[3]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 832)] PAP_IO_DIRECTION is already defined in p:eth_rxd[3], new value INPUT will overwrite the current value.
+
+define_attribute {p:eth_rxd[3]} {PAP_IO_LOC} {H13}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 833)] PAP_IO_LOC is already defined in p:eth_rxd[3], new value H13 will overwrite the current value.
+
+define_attribute {p:eth_rxd[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 834)] PAP_IO_VCCIO is already defined in p:eth_rxd[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_rxd[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 835)] PAP_IO_STANDARD is already defined in p:eth_rxd[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_rxd[3]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 836)] PAP_IO_PULLUP is already defined in p:eth_rxd[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_rxd[2]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 837)] PAP_IO_DIRECTION is already defined in p:eth_rxd[2], new value INPUT will overwrite the current value.
+
+define_attribute {p:eth_rxd[2]} {PAP_IO_LOC} {G13}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 838)] PAP_IO_LOC is already defined in p:eth_rxd[2], new value G13 will overwrite the current value.
+
+define_attribute {p:eth_rxd[2]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 839)] PAP_IO_VCCIO is already defined in p:eth_rxd[2], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_rxd[2]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 840)] PAP_IO_STANDARD is already defined in p:eth_rxd[2], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_rxd[2]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 841)] PAP_IO_PULLUP is already defined in p:eth_rxd[2], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_rxd[1]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 842)] PAP_IO_DIRECTION is already defined in p:eth_rxd[1], new value INPUT will overwrite the current value.
+
+define_attribute {p:eth_rxd[1]} {PAP_IO_LOC} {H11}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 843)] PAP_IO_LOC is already defined in p:eth_rxd[1], new value H11 will overwrite the current value.
+
+define_attribute {p:eth_rxd[1]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 844)] PAP_IO_VCCIO is already defined in p:eth_rxd[1], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_rxd[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 845)] PAP_IO_STANDARD is already defined in p:eth_rxd[1], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_rxd[1]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 846)] PAP_IO_PULLUP is already defined in p:eth_rxd[1], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_rxd[0]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 847)] PAP_IO_DIRECTION is already defined in p:eth_rxd[0], new value INPUT will overwrite the current value.
+
+define_attribute {p:eth_rxd[0]} {PAP_IO_LOC} {H10}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 848)] PAP_IO_LOC is already defined in p:eth_rxd[0], new value H10 will overwrite the current value.
+
+define_attribute {p:eth_rxd[0]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 849)] PAP_IO_VCCIO is already defined in p:eth_rxd[0], new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_rxd[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 850)] PAP_IO_STANDARD is already defined in p:eth_rxd[0], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_rxd[0]} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 851)] PAP_IO_PULLUP is already defined in p:eth_rxd[0], new value TRUE will overwrite the current value.
+
+define_attribute {p:eth_rst_n} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 852)] PAP_IO_DIRECTION is already defined in p:eth_rst_n, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth_rst_n} {PAP_IO_LOC} {B20}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 853)] PAP_IO_LOC is already defined in p:eth_rst_n, new value B20 will overwrite the current value.
+
+define_attribute {p:eth_rst_n} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 854)] PAP_IO_VCCIO is already defined in p:eth_rst_n, new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_rst_n} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 855)] PAP_IO_STANDARD is already defined in p:eth_rst_n, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_rst_n} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 856)] PAP_IO_DRIVE is already defined in p:eth_rst_n, new value 8 will overwrite the current value.
+
+define_attribute {p:eth_rst_n} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 858)] PAP_IO_SLEW is already defined in p:eth_rst_n, new value SLOW will overwrite the current value.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 859)] PAP_IO_DIRECTION is already defined in p:eth_tx_ctl, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_LOC} {B18}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 860)] PAP_IO_LOC is already defined in p:eth_tx_ctl, new value B18 will overwrite the current value.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 861)] PAP_IO_VCCIO is already defined in p:eth_tx_ctl, new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 862)] PAP_IO_STANDARD is already defined in p:eth_tx_ctl, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 863)] PAP_IO_DRIVE is already defined in p:eth_tx_ctl, new value 8 will overwrite the current value.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 865)] PAP_IO_SLEW is already defined in p:eth_tx_ctl, new value SLOW will overwrite the current value.
+
+define_attribute {p:eth_txc} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 866)] PAP_IO_DIRECTION is already defined in p:eth_txc, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:eth_txc} {PAP_IO_LOC} {G16}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 867)] PAP_IO_LOC is already defined in p:eth_txc, new value G16 will overwrite the current value.
+
+define_attribute {p:eth_txc} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 868)] PAP_IO_VCCIO is already defined in p:eth_txc, new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_txc} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 869)] PAP_IO_STANDARD is already defined in p:eth_txc, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_txc} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 870)] PAP_IO_DRIVE is already defined in p:eth_txc, new value 8 will overwrite the current value.
+
+define_attribute {p:eth_txc} {PAP_IO_SLEW} {SLOW}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 872)] PAP_IO_SLEW is already defined in p:eth_txc, new value SLOW will overwrite the current value.
+
+define_attribute {p:eth_rx_ctl} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 873)] PAP_IO_DIRECTION is already defined in p:eth_rx_ctl, new value INPUT will overwrite the current value.
+
+define_attribute {p:eth_rx_ctl} {PAP_IO_LOC} {F9}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 874)] PAP_IO_LOC is already defined in p:eth_rx_ctl, new value F9 will overwrite the current value.
+
+define_attribute {p:eth_rx_ctl} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 875)] PAP_IO_VCCIO is already defined in p:eth_rx_ctl, new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_rx_ctl} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 876)] PAP_IO_STANDARD is already defined in p:eth_rx_ctl, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:eth_rxc} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 878)] PAP_IO_DIRECTION is already defined in p:eth_rxc, new value INPUT will overwrite the current value.
+
+define_attribute {p:eth_rxc} {PAP_IO_LOC} {F14}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 879)] PAP_IO_LOC is already defined in p:eth_rxc, new value F14 will overwrite the current value.
+
+define_attribute {p:eth_rxc} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 880)] PAP_IO_VCCIO is already defined in p:eth_rxc, new value 3.3 will overwrite the current value.
+
+define_attribute {p:eth_rxc} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 881)] PAP_IO_STANDARD is already defined in p:eth_rxc, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:rst_n} {PAP_IO_LOC} {K18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 53)] | Port rst_n has been placed at location K18, whose type is share pin.
+
+define_attribute {p:key_in_2} {PAP_IO_LOC} {H20}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 65)] | Port key_in_2 has been placed at location H20, whose type is share pin.
+
+define_attribute {p:b_out[5]} {PAP_IO_LOC} {R22}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 260)] | Port b_out[5] has been placed at location R22, whose type is share pin.
+
+define_attribute {p:b_out[4]} {PAP_IO_LOC} {R20}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 267)] | Port b_out[4] has been placed at location R20, whose type is share pin.
+
+define_attribute {p:g_out[7]} {PAP_IO_LOC} {L17}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 302)] | Port g_out[7] has been placed at location L17, whose type is share pin.
+
+define_attribute {p:g_out[6]} {PAP_IO_LOC} {K20}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 309)] | Port g_out[6] has been placed at location K20, whose type is share pin.
+
+define_attribute {p:g_out[5]} {PAP_IO_LOC} {L19}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 316)] | Port g_out[5] has been placed at location L19, whose type is share pin.
+
+define_attribute {p:r_out[0]} {PAP_IO_LOC} {K17}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 407)] | Port r_out[0] has been placed at location K17, whose type is share pin.
+
+define_attribute {p:b_out[2]} {PAP_IO_LOC} {T21}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 281)] | Port b_out[2] has been placed at location T21, whose type is share pin.
+
+define_attribute {p:g_out[0]} {PAP_IO_LOC} {M21}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 351)] | Port g_out[0] has been placed at location M21, whose type is share pin.
+
+define_attribute {p:r_out[7]} {PAP_IO_LOC} {H19}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 358)] | Port r_out[7] has been placed at location H19, whose type is share pin.
+
+define_attribute {p:r_out[6]} {PAP_IO_LOC} {H22}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 365)] | Port r_out[6] has been placed at location H22, whose type is share pin.
+
+define_attribute {p:r_out[5]} {PAP_IO_LOC} {H21}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 372)] | Port r_out[5] has been placed at location H21, whose type is share pin.
+
+define_attribute {p:pix_clk} {PAP_IO_LOC} {M22}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 428)] | Port pix_clk has been placed at location M22, whose type is share pin.
+
+define_attribute {p:iic_sda} {PAP_IO_UNUSED} {TRUE}
+
+	W: ConstraintEditor-4031: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 449)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_UNUSED.
+
+define_attribute {p:iic_sda} {PAP_IO_LOC} {V20}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 473)] | Port iic_sda has been placed at location V20, whose type is share pin.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_UNUSED} {TRUE}
+
+	W: ConstraintEditor-4031: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 456)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_UNUSED.
+
+define_attribute {p:iic_scl} {PAP_IO_UNUSED} {TRUE}
+
+	W: ConstraintEditor-4031: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 463)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_UNUSED.
+
+define_attribute {p:iic_scl} {PAP_IO_LOC} {V19}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 487)] | Port iic_scl has been placed at location V19, whose type is share pin.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_UNUSED} {TRUE}
+
+	W: ConstraintEditor-4031: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 470)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_UNUSED.
+
+define_attribute {p:g_in[5]} {PAP_IO_LOC} {AB18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 554)] | Port g_in[5] has been placed at location AB18, whose type is share pin.
+
+define_attribute {p:g_in[4]} {PAP_IO_LOC} {AA18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 559)] | Port g_in[4] has been placed at location AA18, whose type is share pin.
+
+define_attribute {p:g_in[3]} {PAP_IO_LOC} {AB19}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 564)] | Port g_in[3] has been placed at location AB19, whose type is share pin.
+
+define_attribute {p:g_in[2]} {PAP_IO_LOC} {W18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 569)] | Port g_in[2] has been placed at location W18, whose type is share pin.
+
+define_attribute {p:g_in[1]} {PAP_IO_LOC} {V17}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 574)] | Port g_in[1] has been placed at location V17, whose type is share pin.
+
+define_attribute {p:pixclk_in} {PAP_IO_LOC} {AA12}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 634)] | Port pixclk_in has been placed at location AA12, whose type is share pin.
+
+define_attribute {p:eth_txd[3]} {PAP_IO_LOC} {A18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 805)] | Port eth_txd[3] has been placed at location A18, whose type is share pin.
+
+define_attribute {p:eth_txd[2]} {PAP_IO_LOC} {C18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 812)] | Port eth_txd[2] has been placed at location C18, whose type is share pin.
+
+define_attribute {p:eth_txd[1]} {PAP_IO_LOC} {D17}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 819)] | Port eth_txd[1] has been placed at location D17, whose type is share pin.
+
+define_attribute {p:eth_rst_n} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4031: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 778)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_PULLUP.
+
+define_attribute {p:eth_rst_n} {PAP_IO_LOC} {B20}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 853)] | Port eth_rst_n has been placed at location B20, whose type is share pin.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4031: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 785)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_PULLUP.
+
+define_attribute {p:eth_tx_ctl} {PAP_IO_LOC} {B18}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 860)] | Port eth_tx_ctl has been placed at location B18, whose type is share pin.
+
+define_attribute {p:eth_txc} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4031: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 792)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_PULLUP.
+
+define_attribute {p:eth_rx_ctl} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4031: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 798)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_PULLUP.
+
+define_attribute {p:eth_rxc} {PAP_IO_PULLUP} {TRUE}
+
+	W: ConstraintEditor-4031: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 803)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_PULLUP.
+
+define_attribute {p:key_udp_send} {PAP_IO_LOC} {J19}
+
+	C: ConstraintEditor-2002: [D:/2345Downloads/finnal/hsst_test2/hsst_test2/pnr/example_design/pango_hsst_top.fdc(line number: 887)] | Port key_udp_send has been placed at location J19, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+W: ConstraintEditor-4019: Port 'o_p_l2txn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l2txp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l3txn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'o_p_l3txp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l2rxn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l2rxp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l3rxn' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_l3rxp' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_refckn_0' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'i_p_refckp_0' unspecified I/O constraint.
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

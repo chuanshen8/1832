@@ -1,0 +1,30 @@
+# Compile of fifo_tb.v was successful.
+# Compile of line_shift.v failed with 2 errors.
+# Compile of fifo_shift.v was successful.
+# Compile of fifo_shift_prefetch.v was successful.
+# Compile of fifo_shift_tb.v was successful.
+# Compile of fifo_shift_tmpl.v failed with 2 errors.
+# Compile of ipml_fifo_ctrl_v1_3.v was successful.
+# Compile of ipml_fifo_v1_6_fifo_shift.v was successful.
+# Compile of ipml_prefetch_fifo_v1_6_fifo_shift.v was successful.
+# Compile of ipml_reg_fifo_v1_0.v was successful.
+# Compile of ipml_sdpram_v1_6_fifo_shift.v was successful.
+# 11 compiles, 2 failed with 4 errors.
+vsim -novopt -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 work.fifo_shift_tb
+# vsim -novopt -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 work.fifo_shift_tb 
+# Start time: 16:50:00 on Oct 20,2023
+# ** Error (suppressible): (vsim-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run_behav_simulate.tcl PAUSED at line 6
+vsim -vopt -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 work.fifo_shift_tb
+# vsim -vopt -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 work.fifo_shift_tb 
+# Start time: 16:50:00 on Oct 20,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_sdpram_v1_6_fifo_shift.v(846): (vopt-2685) [TFMPC] - Too few port connections for 'U_GTP_DRM18K'.  Expected 21, found 20.
+# ** Warning: C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_sdpram_v1_6_fifo_shift.v(846): (vopt-2718) [TFMPC] - Missing connection for port 'WWCONF'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=4, Warnings=2.
+# Loading work.fifo_shift_tb(fast)
+# End time: 17:06:37 on Oct 20,2023, Elapsed time: 0:16:37
+# Errors: 4, Warnings: 10

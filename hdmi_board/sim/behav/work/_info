@@ -1,0 +1,228 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/JIAOFUJUN/Desktop/scaler_version/sim/behav
+T_opt
+!s110 1697792772
+V818HOaK[FKL[`d;e_7Y<R0
+04 13 4 work fifo_shift_tb fast 0
+=1-38f3abcd476b-65324304-b3-6c44
+o-quiet -auto_acc_if_foreign -work work -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+R0
+vfifo_shift
+Z2 !s110 1697792706
+!i10b 1
+!s100 `4jeLYlKRfL7Jc6FThXlK2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXBD2XY?IU6Fb^DjZcJAdU2
+R0
+Z4 w1697783182
+8C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/fifo_shift.v
+FC:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/fifo_shift.v
+!i122 1
+L0 18 161
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z7 !s108 1697792706.000000
+!s107 C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/fifo_shift.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/fifo_shift.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vfifo_shift_prefetch
+R2
+!i10b 1
+!s100 2zf4NzKnojIn5TY5Z7]2>2
+R3
+ID2KlKL4J=:^eU^la:6BDH1
+R0
+R4
+8C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/fifo_shift_prefetch.v
+FC:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/fifo_shift_prefetch.v
+!i122 2
+L0 18 95
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/fifo_shift_prefetch.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/fifo_shift_prefetch.v|
+!i113 0
+R8
+R1
+vfifo_shift_tb
+R2
+!i10b 1
+!s100 Ym<72TEXKBbVTbQ:=PaJ21
+R3
+I_0AGXnl[KciF`Sfa3bfJ21
+R0
+R4
+8C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/fifo_shift_tb.v
+FC:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/fifo_shift_tb.v
+!i122 3
+L0 20 260
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/fifo_shift_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/fifo_shift_tb.v|
+!i113 0
+R8
+R1
+vfifo_tb
+!s110 1697793621
+!i10b 1
+!s100 d3:C]Q;HnD:8iQ6lb7gZd2
+R3
+IoeWd]MKSkj>JBW:a5<OWW1
+R0
+w1697793383
+8C:/Users/JIAOFUJUN/Desktop/scaler_version/source/fifo_tb.v
+FC:/Users/JIAOFUJUN/Desktop/scaler_version/source/fifo_tb.v
+!i122 10
+L0 3 31
+R5
+R6
+r1
+!s85 0
+31
+!s108 1697793621.000000
+!s107 C:/Users/JIAOFUJUN/Desktop/scaler_version/source/fifo_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/JIAOFUJUN/Desktop/scaler_version/source/fifo_tb.v|
+!i113 0
+R8
+R1
+vipml_fifo_ctrl_v1_3
+Z9 !s110 1697792707
+!i10b 1
+!s100 E^>D]>RZech1SjNdWf8ac3
+R3
+IR?b4>b8nPJ2A8K<]3Y>[D2
+R0
+Z10 w1657559934
+8C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_fifo_ctrl_v1_3.v
+FC:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_fifo_ctrl_v1_3.v
+!i122 4
+L0 21 361
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_fifo_ctrl_v1_3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_fifo_ctrl_v1_3.v|
+!i113 0
+R8
+R1
+vipml_fifo_v1_6_fifo_shift
+R9
+!i10b 1
+!s100 CF8>ikGl>5MTXo[jzNF_N3
+R3
+I`6TzP>Jn3G:Xj=k?JzK:U3
+R0
+R4
+8C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_fifo_v1_6_fifo_shift.v
+FC:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_fifo_v1_6_fifo_shift.v
+!i122 5
+L0 25 116
+R5
+R6
+r1
+!s85 0
+31
+Z11 !s108 1697792707.000000
+!s107 C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_fifo_v1_6_fifo_shift.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_fifo_v1_6_fifo_shift.v|
+!i113 0
+R8
+R1
+vipml_prefetch_fifo_v1_6_fifo_shift
+R9
+!i10b 1
+!s100 hkP^RU<LkkO_EY?0gE5Db0
+R3
+IGWF3MKfe@4G0FQR6S7CF[2
+R0
+R4
+8C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_prefetch_fifo_v1_6_fifo_shift.v
+FC:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_prefetch_fifo_v1_6_fifo_shift.v
+!i122 6
+L0 25 167
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_prefetch_fifo_v1_6_fifo_shift.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_prefetch_fifo_v1_6_fifo_shift.v|
+!i113 0
+R8
+R1
+vipml_reg_fifo_v1_0
+R9
+!i10b 1
+!s100 A4k?RLiTJ5WGjof;7miz33
+R3
+I7kmjFef=:U;f8>o4EU]_62
+R0
+R10
+8C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_reg_fifo_v1_0.v
+FC:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_reg_fifo_v1_0.v
+!i122 7
+L0 6 91
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_reg_fifo_v1_0.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_reg_fifo_v1_0.v|
+!i113 0
+R8
+R1
+vipml_sdpram_v1_6_fifo_shift
+R9
+!i10b 1
+!s100 P0P0]Qk?B[nCTl807Q2I=1
+R3
+I^WLn]U4z9gfXO^njVonbM1
+R0
+R4
+8C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_sdpram_v1_6_fifo_shift.v
+FC:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_sdpram_v1_6_fifo_shift.v
+!i122 8
+L0 20 1096
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_sdpram_v1_6_fifo_shift.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/JIAOFUJUN/Desktop/scaler_version/ipcore/fifo_shift/rtl/ipml_sdpram_v1_6_fifo_shift.v|
+!i113 0
+R8
+R1
